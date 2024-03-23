@@ -1,9 +1,16 @@
+package galToLit;
 
-public class Main {
+import java.util.Scanner;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello World");
-	}
+public class GalToLit {
 
+		public static void main(String[] args) {
+			Scanner in = new Scanner(System.in);
+			// declare as variáveis
+		double gallons=10;
+		double liters=0;
+		// adicione o cálculo aqui
+		// exiba o resultado para o usuário
+		System.out.println(gallons+" gallons equals "+liters+" liters");
+		}
 }
